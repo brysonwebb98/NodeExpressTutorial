@@ -1,5 +1,5 @@
 const homeRoute = (req, res) => {
-    res.send('Welcome to Home Page. Check out /bryson, /george or /moroni for more!');
+    res.send('Hello Victoria. Welcome to Home Page. Check out /bryson, /george or /moroni for more!');
 }
 
 const brysonRoute = (req, res) => {
