@@ -5,5 +5,7 @@ const port = 3000;
 
 app.use('/', require('./routes'));
 
-app.listen(process.env.port || 3000);
-console.log('Web Server is listening at port ' + 'localhost:'+(process.env.port || port));
+app.listen(port, () => {
+    console.log(`Server is running on port http://localhost:${port}`);
+});
+
